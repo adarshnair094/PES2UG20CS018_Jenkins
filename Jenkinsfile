@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh 'echo Build Stage Successful"'
+        sh 'echo "Build Stage Successful"'
         
       }
     }
@@ -15,7 +15,7 @@ pipeline {
     }
     stage('Deploy') {
           steps {
-            sh 'echo "Deployment Successful"'
+            sh 'echo Deployment Successful"'
             
           }
     }
